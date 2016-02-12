@@ -1,0 +1,83 @@
+{
+   "meta":"",
+   "gain":[
+      {
+         "title":"Commercial",
+         "accord_key":"com",
+         "states":[
+            {
+               "title":"OH"
+            },
+            {
+               "title":"MO"
+            },
+            {
+               "title":"GA"
+            }
+         ],
+         "next_key":"lobs",
+         "next_title":"LOBs",
+         "lobs":[
+            {
+               "title":"BOP",
+               "description":"This is the Commercial BOP",
+               "next_key":"states",
+               "next_title":"States"
+            },
+            {
+               "title":"BOP Choice",
+               "description":"This is the Commercial BOP Choice",
+               "next_key":"states",
+               "next_title":"States"
+            }
+         ]
+      },
+      {
+         "title":"Farm",
+         "accord_key":"farm",
+         "states":[
+            {
+               "title":"GA"
+            }
+         ],
+         "next_key":"lobs",
+         "next_title":"LOBs",
+         "lobs":[
+            {
+               "title":"FARM BOP",
+               "description":"This is Farm BOP",
+               "next_key":"states",
+               "next_title":"States"
+            }
+         ]
+      },
+      {
+         "title":"Personal",
+         "accord_key":"per",
+         "states":[
+            {
+               "title":"OH"
+            },
+            {
+               "title":"MO"
+            }
+         ],
+         "next_key":"lobs",
+         "next_title":"LOBs",
+         "lobs":[
+            {
+               "title":"CPP",
+               "description":"This ithe personal CPP",
+               "next_key":"states",
+               "next_title":"States"
+            },
+            {
+               "title":"PER BOP",
+               "description":"This is Personal BOP",
+               "next_key":"states",
+               "next_title":"States"
+            }
+         ]
+      }
+   ]
+}
